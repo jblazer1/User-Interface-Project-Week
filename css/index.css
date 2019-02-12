@@ -5,6 +5,24 @@ RESET
 v2.0b1 | 201101 
 NOTE:WORK IN PROGRESS
 USE WITH CAUTION AND TEST WITH ABANDON */
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+.header-content {
+  display: flex;
+}
+.header-img {
+  width: 100%;
+}
+.top-row {
+  display: flex;
+  border: 2px solid blue;
+}
+.bottom-row {
+  display: flex;
+  border: 2px solid greenyellow;
+}
 .nav {
   height: 50px;
   border: 2px solid hotpink;
