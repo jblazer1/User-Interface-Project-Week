@@ -10,10 +10,39 @@
 // Color: #FFFFFF
 // Hover Color: #222222
 
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  background: #828282;
+  width: 1024px;
+  position: fixed;
+  z-index: 10;
+}
+
 .nav {
+  display: flex;
+  justify-content: space-between;
   height: 50px;
-  border: 2px solid hotpink;
-  // display: flex;
-  align-content: center;
+  align-items: center;
+  margin: 0 75px;
   width: 100%;
+  z-index: 1;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 24px;
+  color: #fff;
+}
+
+.open-hamburger {
+  display: flex;
+}
+
+.open-menu {
+  display: flex;
+}
+
+.close-menu {
+  display: none;
 }
