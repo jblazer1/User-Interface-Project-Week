@@ -8,7 +8,6 @@ USE WITH CAUTION AND TEST WITH ABANDON */
 .main-container {
   flex-direction: column;
   max-width: 1024px;
-  border: 2px solid red;
   display: flex;
   margin: 0 auto;
   background: #fff;
@@ -40,7 +39,6 @@ USE WITH CAUTION AND TEST WITH ABANDON */
 }
 .top-row {
   display: flex;
-  border: 2px solid blue;
 }
 .sj-architects {
   width: 370px;
@@ -50,7 +48,6 @@ USE WITH CAUTION AND TEST WITH ABANDON */
 }
 .bottom-row {
   display: flex;
-  border: 2px solid greenyellow;
 }
 .row {
   display: flex;
@@ -82,7 +79,6 @@ USE WITH CAUTION AND TEST WITH ABANDON */
   padding: 50px 0 50px 80px;
 }
 .full-img {
-  border: 2px solid hotpink;
   margin: 0 auto;
   display: block;
 }
@@ -113,7 +109,7 @@ USE WITH CAUTION AND TEST WITH ABANDON */
 .nav-container {
   display: flex;
   justify-content: space-between;
-  background: #828282;
+  background: #c3c4c8;
   width: 1024px;
   position: fixed;
   z-index: 10;
@@ -150,7 +146,7 @@ USE WITH CAUTION AND TEST WITH ABANDON */
   top: 0;
   background-color: #c3c4c8;
   overflow-x: hidden;
-  transition: 0.75s;
+  transition: 0.5s;
 }
 .modal-content {
   position: relative;
@@ -158,6 +154,20 @@ USE WITH CAUTION AND TEST WITH ABANDON */
   width: 100%;
   text-align: center;
   margin-top: 30px;
+}
+.modal a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 48px;
+  line-height: 85px;
+  font-weight: bold;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+.modal a:hover,
+.modal a:focus {
+  color: #222;
 }
 .footer {
   display: flex;
