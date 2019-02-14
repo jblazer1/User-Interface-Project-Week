@@ -141,6 +141,24 @@ USE WITH CAUTION AND TEST WITH ABANDON */
 .close-menu {
   display: none;
 }
+.modal {
+  height: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: #c3c4c8;
+  overflow-x: hidden;
+  transition: 0.75s;
+}
+.modal-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
 .footer {
   display: flex;
   line-height: 26px;
