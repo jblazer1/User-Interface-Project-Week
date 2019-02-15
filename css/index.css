@@ -13,6 +13,7 @@ USE WITH CAUTION AND TEST WITH ABANDON */
   background: #fff;
   color: #222;
   font-family: Roboto, Arial, sans-serif;
+  border: 2px solid red;
 }
 .header-content {
   display: flex;
@@ -200,6 +201,33 @@ USE WITH CAUTION AND TEST WITH ABANDON */
   left: 85px;
   color: #fff;
   font-size: 64px;
+  font-weight: bold;
+}
+.services-top-paragraph {
+  padding: 50px 75px;
+  line-height: 1.5;
+  border: 1px solid blue;
+}
+.tabs-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+}
+.tabs-links :hover {
+  background: #222;
+  color: #fff;
+}
+.tabs-link-selected {
+  background: #5e9fb9;
+}
+.tabs-link {
+  border: 1px solid #222;
+  height: 45px;
+  width: 160px;
+  text-align: center;
+  padding-top: 12px;
+  color: #222;
   font-weight: bold;
 }
 html,
