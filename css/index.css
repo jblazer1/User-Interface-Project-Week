@@ -13,7 +13,6 @@ USE WITH CAUTION AND TEST WITH ABANDON */
   background: #fff;
   color: #222;
   font-family: Roboto, Arial, sans-serif;
-  border: 2px solid red;
 }
 .header-content {
   display: flex;
@@ -40,6 +39,7 @@ USE WITH CAUTION AND TEST WITH ABANDON */
 }
 .top-row {
   display: flex;
+  padding: 50px 0;
 }
 .sj-architects {
   width: 370px;
@@ -206,7 +206,6 @@ USE WITH CAUTION AND TEST WITH ABANDON */
 .services-top-paragraph {
   padding: 50px 75px;
   line-height: 1.5;
-  border: 1px solid blue;
 }
 .tabs-links {
   display: flex;
@@ -226,9 +225,38 @@ USE WITH CAUTION AND TEST WITH ABANDON */
   height: 45px;
   width: 160px;
   text-align: center;
-  padding-top: 12px;
+  padding-top: 14px;
   color: #222;
   font-weight: bold;
+}
+.tabs-item {
+  display: none;
+}
+.tabs-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tabs-item-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+.tabs-item-selected {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 50px;
+  width: 90%;
+  margin: 0 auto;
+}
+.tabs-item-selected .tabs-item-description {
+  width: 40%;
+  margin: 0;
+  padding-right: 20px;
+}
+.tabs-item-selected .tabs-item-title {
+  padding-bottom: 25px;
+  width: 100%;
+  margin-left: 37px;
 }
 html,
 body,
