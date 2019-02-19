@@ -13,6 +13,7 @@ USE WITH CAUTION AND TEST WITH ABANDON */
   background: #fff;
   color: #222;
   font-family: Roboto, Arial, sans-serif;
+  position: relative;
 }
 .header-content {
   display: flex;
@@ -111,9 +112,12 @@ USE WITH CAUTION AND TEST WITH ABANDON */
   display: flex;
   justify-content: space-between;
   background: #c3c4c8;
-  width: 1024px;
+  width: 100%;
   position: fixed;
   z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 .nav {
   display: flex;
@@ -258,6 +262,84 @@ USE WITH CAUTION AND TEST WITH ABANDON */
   width: 100%;
   margin-left: 37px;
 }
+@media (max-width: 500px) {
+  .main-container {
+    line-height: 1.5;
+  }
+  .header-img {
+    display: none;
+  }
+  .header-img.mobile {
+    display: block;
+    width: 479px;
+  }
+  .main-header {
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+    color: #fff;
+    font-size: 50px;
+    line-height: 59px;
+    font-weight: bold;
+  }
+  .sj-architects {
+    width: 415px;
+  }
+  .sja-full {
+    display: none;
+  }
+  .sja-mobile {
+    display: block;
+    width: 415px;
+  }
+  .top-row {
+    flex-direction: column-reverse;
+  }
+  .bottom-row {
+    flex-direction: column;
+  }
+  .sj-architects h2 {
+    padding-top: 20px;
+    font-size: 35px;
+  }
+  .btn {
+    width: 100%;
+    height: 45px;
+  }
+  .fd-full {
+    display: none;
+  }
+  .fd-mobile {
+    display: block;
+  }
+  .futuristic-designs-img {
+    width: 415px;
+  }
+  .fd-mobile {
+    width: 100%;
+  }
+  .futuristic-designs {
+    width: 415px;
+  }
+  .futuristic-designs h2 {
+    font-size: 35px;
+    padding-top: 20px;
+  }
+  .full-img {
+    display: none;
+  }
+  .mobile-img {
+    display: block;
+    width: 100%;
+  }
+  .block-mobile {
+    bottom: -65.5px;
+    padding-top: 20px;
+  }
+  .rp-paragraph {
+    padding-top: 90px;
+  }
+}
 html,
 body,
 div,
@@ -389,4 +471,7 @@ table {
 /* Your Code Goes Here */
 * {
   box-sizing: border-box;
+}
+.mobile {
+  display: none;
 }
