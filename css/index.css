@@ -187,10 +187,13 @@ USE WITH CAUTION AND TEST WITH ABANDON */
 }
 .footer input {
   border-radius: 5px;
-  padding: 5px;
+  padding: 10px;
   margin: 10px 0;
+  width: 275px;
+  font-size: 16px;
 }
 .footer h3 {
+  font-weight: bold;
   font-size: 20px;
   line-height: 24px;
 }
@@ -199,6 +202,34 @@ USE WITH CAUTION AND TEST WITH ABANDON */
   color: #fff;
   background: #828282;
   padding: 25px 0 10px;
+}
+.input-content {
+  border: 2px solid red;
+  width: 45%;
+  margin-left: 50px;
+}
+.contact-main-header {
+  position: absolute;
+  bottom: 15px;
+  left: 75px;
+  color: #fff;
+  font-size: 64px;
+  font-weight: bold;
+}
+.contact-email {
+  width: 445px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.buildings-planned {
+  width: 445px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+textarea {
+  border-radius: 5px;
 }
 .services-main-header {
   position: absolute;
