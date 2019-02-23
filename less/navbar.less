@@ -1,0 +1,90 @@
+// Navigation Logo
+// Font Weight: Bold
+// Font Size: 24px
+// Color: #FFFFFF
+
+// Navigation Text (Expanded)
+// Font Weight: Bold
+// Font Size: 48px
+// Line Height: 85px
+// Color: #FFFFFF
+// Hover Color: #222222
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(195, 196, 200);
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+  margin: 0 75px;
+  width: 100%;
+  z-index: 1;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 24px;
+  color: #fff;
+}
+
+.open-hamburger {
+  display: flex;
+}
+
+.open-menu {
+  display: flex;
+}
+
+.close-menu {
+  display: none;
+}
+
+//============================== MODAL =============================================
+.modal {
+  height: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: rgb(195, 196, 200);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.modal-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.modal a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 48px;
+  line-height: 85px;
+  font-weight: bold;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+.modal a:hover,
+.modal a:focus {
+  color: #222;
+}
+
+//=================================== MODAL END =====================================

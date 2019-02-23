@@ -1,18 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>Home</title>
-	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-	<link rel="stylesheet" href="css/index.css">
-	<!--[if IE]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <title>Home</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--[if IE]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
 
-<body>
+  <body>
+    <div class="main-container">
+      <!-- Modal -->
+      <div id="myNav" class="modal">
+        <div class="modal-content">
+          <a href="index.html">HOME</a>
+          <a href="services.html">SERVICES</a>
+          <a href="contact.html">CONTACT</a>
+        </div>
+      </div>
+      <!-- END MODAL -->
 
-	<h1>You got this!  Good luck.</h1>
+      <header class="nav-container">
+        <div class="nav">
+          <div class="name">
+            <h2>S&J</h2>
+          </div>
+          <div class="open-hamburger">
+            <span onclick="openNav()"
+              ><img class="open" src="img/nav-hamburger.png"
+            /></span>
+            <span onclick="closeNav()"
+              ><img class="close close-menu"
+              src="img/nav-hamburger-close.png"</span
+            >
+          </div>
+        </div>
+      </header>
+
+      <section class="top-content">
+        <div class="header-content">
+          <div class="jumbotron">
+            <img class="header-img" src="img/home/home-jumbotron.png" />
+            <img
+              class="header-img mobile"
+              src="img/home/home-mobile-jumbotron.png"
+            />
+
+            <h1 class="main-header">
+              Integrity,<br />Excellence,<br />Progress.
+            </h1>
+          </div>
+        </div>
+      </section>
+
+      <section class="middle-content">
+        <div class="top-row row">
+          <div class="sj-architects">
+            <h2>Smith & Jones Architects</h2>
+            <p>
+              Et sed autem causae appareat, tempor abhorreant te mei, facer
+              facilisis sit ea. Eu timeam vidisse consectetuer sed. Duo etiam
+              laboramus dissentiet in, nec no errem
+            </p>
+            <div class="btn">Learn More</div>
+          </div>
+          <div class="sj-architects-img">
+            <img class="sja-full" src="img/home/home-img-1.png" />
+            <img
+              class="sja-mobile mobile"
+              src="img/home/home-mobile-img-1.png"
+            />
+          </div>
+        </div>
+        <div class="bottom-row row">
+          <div class="futuristic-designs-img">
+            <img class="fd-full" src="img/home/home-img-2.png" />
+            <img
+              class="fd-mobile mobile"
+              src="img/home/home-mobile-img-2.png"
+            />
+          </div>
+          <div class="futuristic-designs">
+            <h2>Futuristic Designs</h2>
+            <p>
+              Et sed autem causae appareat, tempor abhorreant te mei, facer
+              facilisis sit ea. Eu timeam vidisse consectetuer sed. Duo etiam
+              laboramus dissentiet in, nec no errem
+            </p>
+            <div class="btn">View Designs</div>
+          </div>
+        </div>
+        <div class="recent-projects">
+          <h2>Recent Projects</h2>
+          <div class="img-block">
+            <img class="full-img" src="img/home/home-villas-img.png" />
+            <img
+              class="mobile-img mobile"
+              src="img/home/home-mobile-villas-img.png"
+            />
+            <div class="the-villas block block-mobile">THE VILLAS</div>
+          </div>
+          <p class="rp-paragraph">
+            The Villas bring to the table win-win survival strategies to ensure
+            proactive domination. At the end of the day, going forward, a new
+            normal that has evolved from generation X is on the runway heading
+            towards a streamlined cloud solution.<br /><br />
+            Capitalize on low hanging fruit to identify a ballpark value added
+            activity to beta test. Override the digital divide with additional
+            clickthroughs from DevOps. Nanotechnology immersion along the
+            information highway will close the loop on focusing solely on the
+            bottom line.
+          </p>
+        </div>
+        <div class="outskirts">
+          <div class="img-block">
+            <img class="full-img" src="img/home/home-outskirts-img.png" />
+            <img
+              class="mobile-img mobile"
+              src="img/home/home-mobile-outskirts-img.png"
+            />
+            <div class="out-skirts block block-mobile">OUTSKIRTS</div>
+          </div>
+          <p class="rp-paragraph">
+            The Outskirts are amazing to the table win-win survival strategies
+            to ensure proactive domination. At the end of the day, going
+            forward, a new normal that has evolved from generation X is on the
+            runway heading towards a streamlined cloud solution.<br /><br />
+            Capitalize on low hanging fruit to identify a ballpark value added
+            activity to beta test. Override the digital divide with additional
+            clickthroughs from DevOps. Nanotechnology immersion along the
+            information highway will close the loop on focusing solely on the
+            bottom line.
+          </p>
+        </div>
+        <div class="the-blocks">
+          <div class="img-block">
+            <img class="full-img" src="img/home/home-the-blocks-img.png" />
+            <img
+              class="mobile-img mobile"
+              src="img/home/home-mobile-the-blocks-img.png"
+            />
+            <div class="blocks block block-mobile">THE BLOCKS</div>
+          </div>
+          <p class="rp-paragraph">
+            The Blocks are amazing to the table win-win survival strategies to
+            ensure proactive domination. At the end of the day, going forward, a
+            new normal that has evolved from generation X is on the runway
+            heading towards a streamlined cloud solution. <br /><br />Capitalize
+            on low hanging fruit to identify a ballpark value added activity to
+            beta test. Override the digital divide with additional clickthroughs
+            from DevOps. Nanotechnology immersion along the information highway
+            will close the loop on focusing solely on the bottom line.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <div class="footer">
+          <div class="email footer-mobile">
+            <h3>
+              Interested in starting a project? <br />
+              Let's talk:
+            </h3>
+            <input type="email" name="email" placeholder="Enter email" />
+            <p>
+              We'll never share your email with anyone else.
+            </p>
+          </div>
+          <div class="address footer-mobile">
+            <h3>New York</h3>
+            <p>
+              123 Lane <br />
+              Suite 100 <br />
+              Albany, NY 12345 <br />
+              202-555-0144
+            </p>
+          </div>
+          <div class="address footer-mobile">
+            <h3>Florida</h3>
+            <p>
+              Ocean Drive <br />
+              Suite 201 <br />
+              Orlando, FL 22345 <br />
+              502-555-0144
+            </p>
+          </div>
+          <div class="address footer-mobile">
+            <h3>California</h3>
+            <p>
+              Mountain Street <br />
+              Suite 105 <br />
+              San Diego, CA 22345 <br />
+              702-555-0144
+            </p>
+          </div>
+        </div>
+        <div class="copy footer">Copyright &copy; Smith and Jones</div>
+      </section>
+    </div>
+    <!-- end main-container -->
+    <script src="js/index.js"></script>
+  </body>
+</html>
 
 <!-- Menu Content 
 S&J
@@ -21,7 +216,6 @@ Home
 Services
 Contact
 -->
-
 
 <!-- Home Page Content:
 	
@@ -91,6 +285,3 @@ San Diego, CA 22345
 
 Copyright © 2018 Smith and Jones
 -->
-	<script src="js/index.js"></script>
-</body>
-</html>
